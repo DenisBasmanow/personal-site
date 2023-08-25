@@ -1,0 +1,55 @@
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 16px;
+
+    border: 1px solid var(--standart-color);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition-duration: .5s;
+}
+
+.project:hover {
+    background-color: var(--standart-color);
+    color: var(--standart-bg);
+}
+
+.project:first-of-type {
+    margin-top: 24px;
+}
+
+.project__right {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 16px;
+}
+
+.project_icon {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+}
+
+.project_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.project_desc {
+    margin-top: 4px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .project {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+}

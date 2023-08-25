@@ -1,0 +1,16 @@
+.social {
+    width: 18px;
+    height: 18px;
+
+    padding: 8px;
+
+    border: 1px solid var(--standart-color);
+    border-radius: 8px;
+
+    transition-duration: .3s;
+}
+
+.social:hover {
+    box-shadow: inset 0px 0px 12px var(--standart-color);
+}
+
