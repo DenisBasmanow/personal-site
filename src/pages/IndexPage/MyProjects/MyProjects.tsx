@@ -13,6 +13,7 @@ const MyProjects: Component = () => {
                     name={project.name}
                     description={project.description}
                     icon={project.icon}
+                    link={project.link}
                 />
             ))}
         </div>
